@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{    
+    background-color: #e6e6e6;
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(./fonts/LibreFranklin-Regular.ttf);
+}
+@font-face {
+    font-family: 'Libre Franklin2';
+    src: url(./fonts/LibreFranklin-Bold.ttf);
+}
+@font-face {
+    font-family:'Tenor Sans';
+    src: url(./fonts/TenorSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url(./fonts/SourceSerifPro-Regular.ttf);
+}
+header{
+    padding: 0px 120px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+header ul{
+    display: flex;
+    background-color: white;
+}
+header ul li{
+    background-color: white;
+    list-style: none;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    font-family: 'Libre Franklin';
+}
+header ul li a{
+    background: white;
+    text-decoration: none;
+    color: #000000;
+}
+.all1{
+    margin-top: 1px;
+    background-color: white;
+    width: 100%;
+    height: 594px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all1 .wrap1{
+    width: 1200px;
+    height: 473px;
+    background-color: white;
+    display: flex;
+}
+.wrap1 div{
+    margin-left: 50px;
+}
+.wrap1 div p{
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    font-family: 'Libre Franklin';
+    margin-bottom: 18px;
+}
+.wrap1 div span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Tenor Sans';
+}
+.wrap1 div h1{
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #666666;
+    font-family: 'Source Serif Pro';
+}
+.wrap1 div h2{
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;   
+    color: #000000;
+    font-family: 'Libre Franklin2';
+}
+.all2{
+    width: 100%;
+    height: 1063px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.all2 .wrap2{
+    background-color: white;
+    padding: 25px 10px;
+    width: 1220px;
+    height: 963px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box2{
+    width: 385px;
+    height: 450px;
+}
+.box2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 24px;
+    color: #999999;
+    font-family: 'Libre Franklin';
+}
+.box2 h1{
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Tenor Sans';
+}
+.box2 h2{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Libre Franklin';
+}
+.hr1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin:auto;
+    height: 1px;
+    border-radius: 0px;
+    background: #E6E6E6;
+}
+.all3{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.all3 .wrap3{
+    background-color: white;
+    width: 1200px;
+    height: 1020px;
+}
+.all3 .wrap3 p{    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+    color: #999999;
+    margin-bottom: 30px;    
+    font-family: 'Libre Franklin';
+}
+.wrap3 .allb{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box3{
+    width: 281px;
+    height: 400px;
+}
+.box3 img{
+    width: 100%;
+    height: 187px;
+}
+.box3 p{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    font-family: 'Libre Franklin';
+}
+.box3 h1{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;    
+    color: #000000;    
+    font-family: 'Tenor Sans';
+}
+.box3 h2{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Libre Franklin2';
+}
+.wrap3 button{
+    width: 205px;
+    height: 54px;
+    margin-top: 103px;
+    margin-left: 497px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+    color: #000000;
+    font-family: 'Libre Franklin';
+    cursor: pointer;
+    border: none;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+.all4{
+    width: 100%;
+    height: 1310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.wrap4{
+    width: 1200px;
+    height: 1130px;
+    background-color: white;
+}
+.wrap4 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+    color: #999999;
+    font-family: 'Libre Franklin';
+}
+.allb2{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box4{
+    width: 589px;
+    height: 535px;
+}
+.box4 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+    color: #999999;
+    font-family: 'Libre Franklin';
+}
+.box4 h1{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Tenor Sans';
+}
+.box4 h2{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+    color: #000000;
+    font-family: 'Libre Franklin2';
+}
+footer{
+    width: 100%;
+    height: 617px;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .end{
+    height: 437px;
+    width: 1200px;
+}
+.end p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-left: 15px;
+    font-family: 'Libre Franklin';
+}
+.end .dvi{
+    display: flex;
+    align-items: flex-end;
+}
+.end hr{
+    margin-top: 62px;
+    border-radius: 0px;
+    background: #4D4D4D;
+}
+.allbox{
+    margin-top: 60px;
+    display: flex;
+}
+.allbox .category{
+    width: 900px;
+    height: 110px;
+}
+.category p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin-left: -2px;
+    text-transform: uppercase;    
+    color: #666666;
+}
+.news p{
+    margin-bottom: 20px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin-left: -2px;
+    text-transform: uppercase;    
+    color: #666666;
+}
+.category div{   
+    width: 100%;
+    height: 78px;    
+}
+.category div ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.category ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'Libre Franklin';
+}
+.category ul li{
+    margin-bottom: 15px;
+    width: 220px;
+}
+.news{ 
+    width: 300px;
+}
+.news input{
+    width: 221px;
+    height: 48px;
+    border: none;
+    border: 1px solid #CCCCCC;
+    background: #FFFFFF;
+    padding-left: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+    color: #666666;
+    font-family: 'Libre Franklin';
+}
+.news button{
+    margin-left:-5px ;
+    width: 78px;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+    background: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Libre Franklin';
+}
+.allbox2 .category{
+    width: 900px;
+    height: 144px;
+    display: flex;
+}
+.allbox2{
+    margin-top: 40px;
+    display: flex;
+}
+.a{
+    width: 225px;
+    height: 129px;
+    list-style: none;
+}
+.allbox2 .category .a p{
+    margin-bottom: 20px;
+}
+.category .a li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'Libre Franklin';
+}
